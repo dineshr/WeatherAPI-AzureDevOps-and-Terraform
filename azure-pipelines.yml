@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: "windows-latest"
+      vmImage: 'ubuntu-18.04'
     steps:
     - task: Docker@2
       inputs:
