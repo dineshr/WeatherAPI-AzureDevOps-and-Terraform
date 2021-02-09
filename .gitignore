@@ -30,3 +30,16 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# Compiled Source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Terraform
+.terraform
+.tfstate
+.terraform.tfstate.backup
